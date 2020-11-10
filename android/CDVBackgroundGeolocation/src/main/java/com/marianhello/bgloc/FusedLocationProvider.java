@@ -1,4 +1,4 @@
-package com.tenforwardconsulting.bgloc;
+package com.marianhello.bgloc.provider;
 
 import android.Manifest;
 import android.content.Context;
