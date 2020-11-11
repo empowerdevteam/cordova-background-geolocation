@@ -4,13 +4,6 @@
 
 Npm package is now [@mauron85/cordova-plugin-background-geolocation](https://www.npmjs.com/package/@mauron85/cordova-plugin-background-geolocation)!
 
-
-## Donation
-
-Please support my work and continued development with your donation.
-
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=KTUXQQD85F666)
-
 ## Submitting issues
 
 All new issues should follow instructions in [ISSUE_TEMPLATE.md](/ISSUE_TEMPLATE.md).
@@ -185,7 +178,7 @@ function onDeviceReady() {
       // we need to set delay or otherwise alert may not be shown
       setTimeout(function() {
         var showSettings = confirm('App requires location tracking permission. Would you like to open app settings?');
-        if (showSetting) {
+        if (showSettings) {
           return BackgroundGeolocation.showAppSettings();
         }
       }, 1000);
